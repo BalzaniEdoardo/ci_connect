@@ -1,0 +1,22 @@
+Sure! Below is an example of a minimal pyproject.toml file without any dependencies:
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "connect_action"
+version = "0.1.0"
+description = "Run connect to test install on os."
+authors = [
+    { name = "ebalzani", email = "edoardo.balznani87@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["connect"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.10"
