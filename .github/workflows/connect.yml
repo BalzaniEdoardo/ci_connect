@@ -21,3 +21,6 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}       # Specify the Python version
           cache: pip  
+      
+      - name: Setup tmate session (copy paste ssh command to connect to runner)   # Step to set up tmate session
+        uses: mxschmitt/action-tmate@v3    
