@@ -1,4 +1,4 @@
-name: connect
+name: connect_action
 
 # Trigger the workflow manually
 on:
@@ -22,5 +22,5 @@ jobs:
           python-version: ${{ matrix.python-version }}       # Specify the Python version
           cache: pip  
       
-      - name: Setup tmate session (copy paste ssh command to connect to runner)   # Step to set up tmate session
+      - name: Setup tmate session (copy paste ssh command to connect_action to runner)   # Step to set up tmate session
         uses: mxschmitt/action-tmate@v3    
